@@ -1,26 +1,38 @@
 COSC Hackweek – Real-Time Chat App
+===========================================
 
-This is a real-time chat application built for the COSC Hackweek challenge "Real-Time Chat Room Using Socket.IO".
+This is a real-time chat application built for the COSC Hackweek challenge:
+"Real-Time Chat Room Using Socket.IO"
 
-Overview:
-A full-stack chat app using React (frontend) and Node.js + Express + Socket.IO + MongoDB (backend). Users can join, send messages, and see chat history update in real time across all connected clients.
+Overview
+-------------------------------------------
+A full-stack chat app using React (frontend) and Node.js + Express + Socket.IO + MongoDB (backend).
+Users can join, send messages, and see chat history update in real time across all connected clients.
 
-Features:
+-------------------------------------------
+Features
+-------------------------------------------
 - Instant, bi-directional messaging using WebSockets
 - Multiple users can chat concurrently
 - Messages are persisted using MongoDB
 - React frontend with live chat feed and user input
 - Lightweight backend with WebSocket integration
 
-Tech Stack:
+-------------------------------------------
+Tech Stack
+-------------------------------------------
 - Backend: Node.js, Express, Socket.IO, MongoDB
 - Frontend: React (JavaScript)
 
-Project Structure:
-- `frontend/` — React-based UI
-- `backend/` — Express server with Socket.IO and MongoDB integration
+-------------------------------------------
+Project Structure
+-------------------------------------------
+- frontend/ — React-based UI
+- backend/  — Express server with Socket.IO and MongoDB integration
 
-How to Run Locally:
+-------------------------------------------
+How to Run Locally
+-------------------------------------------
 
 1. Clone the repository:
    git clone https://github.com/Manasa-iota/cosc-hackweek-chat-app-socketio.git
@@ -52,8 +64,12 @@ How to Run Locally:
 
 9. Open multiple tabs to test real-time communication.
 
-Live Demo:
+-------------------------------------------
+Live Demo
+-------------------------------------------
 https://tangerine-unicorn-cb6987.netlify.app/
 
-Hackweek Challenge Details:
-Built for: COSC Hackweek – "Real-Time Chat Room Using Socket.IO" 
+-------------------------------------------
+Hackweek Challenge Details
+-------------------------------------------
+Built for: COSC Hackweek – "Real-Time Chat Room Using Socket.IO"
