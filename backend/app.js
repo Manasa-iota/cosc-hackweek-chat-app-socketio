@@ -5,7 +5,7 @@ import roomRoutes from "./routes/room.routes.js"
 export const app = express()
 
 app.use(cors({
-  origin: "http://localhost:5173",  // <- Replace with your frontend port
+  origin: process.env.CLIENT_URL || "http://localhost:5173",  
   methods: ["GET", "POST"],
   credentials: true
 }))
